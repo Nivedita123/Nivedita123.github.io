@@ -4,7 +4,7 @@ import './Nav.css';
 
 class Nav extends Component{
   render () {
-    return <h1>Nav</h1>
+    return <span></span>
   }
 }
 

@@ -1,0 +1,47 @@
+#intro {
+    background: url("./bg.jpg") center top no-repeat fixed transparent;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 50px;
+    position: relative;
+    z-index: -2;
+}
+
+#intro h1, #intro h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+#intro h1 {
+    font-size: 5.25em;
+    margin-top: 15vh;
+    text-shadow: 0 0 10px #000;
+}
+
+#intro h2 {
+    font-size: 2.00em;
+    font-weight: normal;
+    text-shadow: 0 0 5px #000;
+}
+
+#intro .bg-filter {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 768px) {
+    #intro h1 {
+        font-size: 3em;
+    }
+    #intro h2 {
+        font-size: 1.5em;
+    }
+}
