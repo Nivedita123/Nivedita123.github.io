@@ -5,13 +5,14 @@
 /node_modules
 /.pnp
 .pnp.js
+/.vscode
 
 # testing
 /coverage
 
 # production
 /build
-
+/src
 # misc
 .DS_Store
 .env.local
