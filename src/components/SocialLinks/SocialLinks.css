@@ -1,0 +1,73 @@
+.social-link a {
+    text-decoration: none;
+    color: #1abc9c;
+    border: 2px solid #1abc9c;
+    border-radius: 100%;
+    padding: 5px;
+    width: 42px;
+    height: 42px;
+    line-height: 30px;
+    font-size: 1.5em;
+    text-align: center;
+    display: inline-block;
+    margin: 30px 5px;
+}
+
+.social-link a:hover {
+    transition: all 550ms ease-in;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+@-webkit-keyframes hvr-ripple-out {
+    100% {
+        top: -12px;
+        right: -12px;
+        bottom: -12px;
+        left: -12px;
+        opacity: 0;
+    }
+}
+
+@keyframes hvr-ripple-out {
+    100% {
+        top: -12px;
+        right: -12px;
+        bottom: -12px;
+        left: -12px;
+        opacity: 0;
+    }
+}
+
+.hvr-ripple-out {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    position: relative;
+    transition: all 550ms ease-in;
+}
+
+.hvr-ripple-out:before {
+    content: '';
+    position: absolute;
+    border: solid 1px;
+    border-radius: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    opacity: 0;
+    transition: all 550ms ease-in;
+}
+
+.hvr-ripple-out:hover:before {
+    -webkit-animation-name: hvr-ripple-out;
+    animation-name: hvr-ripple-out;
+    border-radius: 100%;
+    opacity: 1;
+    transition: all 550ms ease-in;
+}

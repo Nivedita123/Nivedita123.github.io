@@ -15,7 +15,7 @@
 }
 
 #footer button, #footer button:hover {
-    color: #1abc9c;
+    color: var(--primary);
     font-weight: 600;
     padding: 0;
     transition: all 300ms ease-in;
