@@ -7,7 +7,7 @@ import Info from './components/Info';
 import SkillsContainer from './containers/SkillsContainer';
 import ContactContainer from './containers/ContactContainer';
 import Footer from './components/Footer';
-import { navItems } from './constants';
+import { navItems, aboutMeText, aboutMeBullets } from './constants';
 
 class App extends Component {
   render() {
@@ -15,7 +15,7 @@ class App extends Component {
       [
         <Navbar links={navItems} />,
         <IntroContainer />,
-        <Info />,
+        <Info text={aboutMeText} bullets={aboutMeBullets} />,
         <SkillsContainer />,
         <ContactContainer />,
         <Footer />

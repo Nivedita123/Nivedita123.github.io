@@ -1,5 +1,6 @@
 import { faFacebookF, faWordpressSimple, faInstagram, faGithub, faLinkedinIn, faStackOverflow, faStackExchange } from "@fortawesome/free-brands-svg-icons"
-import { faHome, faCode, faUser, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faBriefcase, faGraduationCap, faHeart, faHome, faCode, faUser, faPhone } from "@fortawesome/free-solid-svg-icons";
+
 export const name = "Nivedita Gautam"
 export const subtitle = "Awesome Full Stack Developer";
 export const socialLinks = [
@@ -73,27 +74,28 @@ export const navItems = [
         iconClass: faPhone
     }
 ];
-export const aboutMeText = "Hi, I am Nivedita. I like to write code to solve day - to - day problems and to make the Internet more beautiful. I love to learn and use new technologies and frameworks. I find pleasue in turning complex things to simple and beautiful designs with clean and semantic code. I develop designs on my own as well as convert PSDs to HTML.I also like to work with JavaScript frameworks like Angular, Node, etc. <br> Feel free to < a href = '#contact' > contact</a > me if you need help with your project.I am available for part - time / full - time freelancing.";
+export const aboutMeText = "Hi, I am Nivedita. I like to write code to solve day - to - day problems and to make the Internet more beautiful. I love to learn and use new technologies and frameworks. I find pleasue in turning complex things to simple and beautiful designs with clean and semantic code. I develop designs on my own as well as convert PSDs to HTML. I also like to work with JavaScript frameworks like Angular, Node, etc. Feel free to contact me if you need help with your project.";
 
 export const aboutMeBullets = [
+
+    {
+        id: "",
+        title: "Hobbies & Interests",
+        iconClass: faHeart,
+        text: "I love Game of Thrones & Harry Potter & every Fantasy Movie/TV Series. I also like Reading, Painting, Decorating, DIYs, Craft, Cooking and Sleeping."
+    },
     {
         id: "",
         title: "Experience",
-        iconClass: "fa fa-briefcase",
+        iconClass: faBriefcase,
         text: "I have 2 years of Work Experience at Infosys Ltd., India and 23 years of living experience."
     },
     {
         id: "",
         title: "Education",
-        iconClass: "fa fa-graduation-cap",
-        text: "B.Tech in Computer Science and <i className='fa fa-heart ml-1 mr-1'></i> for Programming sum up my Education. (Hoping to add more soon)."
+        iconClass: faGraduationCap,
+        text: "B.Tech in Computer Science and love for Programming sum up my Education. (Hoping to add more soon)."
     },
-    {
-        id: "",
-        title: "Hobbies &amp; Interests",
-        iconClass: "fa fa-heart",
-        text: "I love Game of Thrones & Harry Potter & every Fantasy Movie/TV Series. I also like Reading, Painting, Decorating, DIYs, Craft, Cooking and Sleeping."
-    }
 ];
 
 export const skills = [
