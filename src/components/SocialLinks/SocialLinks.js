@@ -17,7 +17,7 @@ class SocialLinks extends Component {
 
         links.forEach(item => {
             this.state.socialLinks.push(
-                <SocialLink title={item.title} href={item.href} iconClass={item.iconClass} />
+                <SocialLink key={item.key} title={item.title} href={item.href} iconClass={item.iconClass} />
             )
         });
     }
@@ -41,6 +41,7 @@ class SocialLink extends Component {
             title: props.title ? props.title : '',
             href: props.href ? props.href : '',
             iconClass: props.iconClass ? props.iconClass : '',
+            key: props.id ? props.id : '',
         }
 
     }

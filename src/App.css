@@ -1,7 +1,7 @@
 :root {
-  --primary: #1abc9c;
-  --primary-disabled: #22c1a1;
-  --secondary: #01abc9;
+  --color-primary: #1abc9c;
+  --color-primary-disabled: #22c1a1;
+  --color-secondary: #01abc9;
 }
 
 body {

@@ -1,0 +1,6 @@
+.mainImg {
+    height: 400px;
+    width: 400px;
+    border:15px solid rgba(0,0,0,0.5);
+    margin-top: 70px;
+}
